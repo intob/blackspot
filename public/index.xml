@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blackspot</title>
-    <link>joseph-innes.github.io/blackspot/</link>
+    <link>blackspot.onrender.com/</link>
     <description>Recent content on Blackspot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under an MIT License.</copyright>
     
-	<atom:link href="joseph-innes.github.io/blackspot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="blackspot.onrender.com/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

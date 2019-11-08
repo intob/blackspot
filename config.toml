@@ -1,5 +1,4 @@
-baseURL = "joseph-innes.github.io/blackspot/"
-publishDir = "docs"
+baseURL = "blackspot.onrender.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Blackspot"
