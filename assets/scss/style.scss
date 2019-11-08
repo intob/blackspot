@@ -1,3 +1,4 @@
+@import "palette.scss";
 @import "predefined.scss";
 @import "normalize.scss";
 @import "syntax.scss";
@@ -7,19 +8,19 @@
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background: $midnightblue;
+  background: $c-accent;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #888;
 
   &:hover {
-    background: $text;
+    background: $c-text;
   }
 }
 
 html {
-  background: $light-grey;
+  background: $c-neutral-light;
   line-height: 1.6;
   letter-spacing: .06em;
   scroll-behavior: smooth;
@@ -30,7 +31,7 @@ button,
 input,
 select,
 textarea {
-  color: $text;
+  color: $c-text;
   font-family: $fonts;
 }
 
@@ -48,20 +49,20 @@ pre {
   letter-spacing: normal;
   white-space: pre;
   color: #eee;
-  background: $midnightblue;
+  background: $c-accent;
   border-radius: 4px;
   // -webkit-overflow-scrolling: touch;
 
   code {
     padding: 0;
     margin: 0;
-    background: $midnightblue;
+    background: $c-accent;
   }
 }
 
 code {
   color: #eee;
-  background: $highlight-grey;
+  background: $c-secondary;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
@@ -86,7 +87,7 @@ blockquote {
 }
 
 a {
-  color: $text;
+  color: $c-text;
   text-decoration: none;
   border: none;
   transition-property: color;
@@ -229,7 +230,7 @@ table {
   width: 100%;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.45);
-  background-color: $dark-grey;
+  background-color: $c-neutral;
 }
 
 .hdr-wrapper {
@@ -252,7 +253,7 @@ table {
 
     .has-children {
       padding-right: .5em;
-      border-right: 2px solid $highlight-grey;
+      border-right: 2px solid $c-secondary;
     }
 
     .sub-menu > a{
@@ -301,7 +302,7 @@ table {
   z-index: 1;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px 0px rgba(0, 0, 0, 0.45);
-  background-color: $dark-grey;
+  background-color: $c-neutral;
 
   ul {
     list-style: none;
@@ -368,7 +369,7 @@ p.img-404 {
 
     a {
       display: inline-block;
-      border: 2px solid $text;
+      border: 2px solid $c-text;
       border-radius: 5px;
       padding: 5px;
       transition-property: color, border-color;
@@ -468,7 +469,7 @@ p.img-404 {
   }
 
   .post-item {
-    border-bottom: 1px $highlight-grey dashed;
+    border-bottom: 1px $c-secondary dashed;
 
     a {
       display: flex;
@@ -590,7 +591,7 @@ hr.post-end {
     opacity: .8;
     &:hover {
       background: none;
-      color: $theme;
+      color: $c-primary;
       opacity: 1;
     }
 
@@ -643,7 +644,7 @@ hr.post-end {
   text-decoration: none;
   padding: 2px;
   border-radius: 2px;
-  background-color: $midnightblue;
+  background-color: $c-accent;
 }
 
 .post-info {
@@ -656,7 +657,7 @@ hr.post-end {
   }
 
   a:hover {
-    border-bottom: 1px solid $theme;
+    border-bottom: 1px solid $c-primary;
   }
 
   svg {
@@ -704,7 +705,7 @@ hr.post-end {
   }
 
   a:hover {
-    border-bottom: $theme 1px solid;
+    border-bottom: $c-primary 1px solid;
   }
 }
 
