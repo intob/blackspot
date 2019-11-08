@@ -9,7 +9,7 @@
 				</nav>
 			</div>
 			<div class="site-lang hide-in-mobile">
-				{{ partialCached "lang.html" . }}
+				{{ partial "translations.html" . }}
 			</div>
 			<div class="hdr-right hdr-icons">
 				{{ if (or .Params.images .Params.featuredImg) -}}
@@ -32,6 +32,6 @@
 			{{- end }}
 		</ul>
 		<div class="site-lang">
-			{{ partialCached "lang.html" . }}
+			{{ partial "translations.html" . }}
 		</div>
 	</div>
