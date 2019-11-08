@@ -17,7 +17,7 @@
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Title | safeHTML }}
 	{{ end -}}
 	{{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "css/style.css" . | toCSS | minify | fingerprint -}}
-	<link rel="preload" href="{{ $style.Permalink }}" as="style">
+	<link rel="preload" href="{{ $style.Permalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous" as="style">
 	<link rel="stylesheet" href="{{ $style.Permalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous">
 	{{- block "head" . -}}{{- end }}
 	{{- range .Site.Params.customCSS }}
