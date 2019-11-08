@@ -20,7 +20,7 @@
 }
 
 html {
-  background: $c-neutral-light;
+  background: $c-neutral;
   line-height: 1.6;
   letter-spacing: .06em;
   scroll-behavior: smooth;
@@ -230,7 +230,7 @@ table {
   width: 100%;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px rgba(0, 0, 0, 0.45);
-  background-color: $c-neutral;
+  background-color: $c-neutral-light;
 }
 
 .hdr-wrapper {
@@ -302,7 +302,7 @@ table {
   z-index: 1;
   box-sizing: border-box;
   box-shadow: -1px -2px 3px 0px rgba(0, 0, 0, 0.45);
-  background-color: $c-neutral;
+  background-color: $c-neutral-light;
 
   ul {
     list-style: none;
