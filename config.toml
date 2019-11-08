@@ -37,7 +37,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   themeColor = "#0a0a0a"
 
   homeSubtitle = "Critically acclaimed documentary film producer & director."
-  footerCopyright = ' &#183; <a href="#" target="_blank" rel="noopener">Copyright 2019 Blackspot</a>'
+  footerCopyright = ' &#183; Copyright 2019 Blackspot'
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
