@@ -1,4 +1,4 @@
-baseURL = "blackspot.onrender.com/"
+baseURL = "http://blackspot.onrender.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Blackspot"
