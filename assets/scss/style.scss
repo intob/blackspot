@@ -412,9 +412,10 @@ p.img-404 {
 }
 
 #home-social {
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-align: center;
   opacity: .8;
+  margin-top: 1em;
 
   a {
     margin: 0 .2em;
@@ -439,6 +440,16 @@ p.img-404 {
 
   p {
     margin-top: 0;
+  }
+}
+
+#home-lang {
+  margin-top: 1em;
+  opacity: .8;
+  text-align: center;
+
+  a {
+    margin: 0 .5em;
   }
 }
 

@@ -32,11 +32,11 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Critically acclaimed documentary film producer & director."
+  description = "Critically acclaimed documentary film production."
   # images = [""]
   themeColor = "#0a0a0a"
 
-  homeSubtitle = "Critically acclaimed documentary film producer & director."
+  homeSubtitle = "Critically acclaimed documentary film production."
   footerCopyright = ' &#183; Copyright 2019 Blackspot'
   # bgImg = ""  # Homepage background-image URL
 
@@ -68,13 +68,30 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "https://www.linkedin.com/pub/daniel-bodenmann/92/11/465"
 
 [menu]
-
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
-
   [[menu.main]]
     name = "About"
     url = "about/"
-    weight = 20
+    translationKey = "about"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 0
+
+[languages]
+  [languages.de]
+    weight = 0
+    languageName = "DE"
+    description = "Kritisch aufgenommene Dokumentarfilmproduktion"
+    homeSubtitle = "Kritisch aufgenommene Dokumentarfilmproduktion"
+    [[languages.de.menu.main]]
+      url    = "about/"
+      name   = "Über"
+      weight = 1
+    [[languages.de.menu.main]]
+      url    = "posts/"
+      name   = "Posten"
+      weight = 0
+  [languages.en]
+    weight = 1
+    languageName = "EN"
