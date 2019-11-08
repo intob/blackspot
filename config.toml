@@ -1,6 +1,7 @@
-baseURL = "https://blackspot.onrender.com/"
+baseURL = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 title = "Blackspot"
 theme = "hermit"
 # enableGitInfo = true
@@ -14,84 +15,82 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "Daniel Bodenmann"
+name = "Daniel Bodenmann"
 
 [blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
+# hrefTargetBlank = true
+# noreferrerLinks = true
+# nofollowLinks = true
 
 [taxonomies]
-  tag = "tags"
-  # Categories are disabled by default.
+tag = "tags"
+# Categories are disabled by default.
 
 [params]
-  dateform        = "2 Jan, 2006"
-  dateformShort   = "2 Jan 06"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+dateform        = "2 Jan, 2006"
+dateformShort   = "2 Jan 06"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
 
-  # Metadata mostly used in document's head
-  description = "Critically acclaimed documentary film production."
-  # images = [""]
-  themeColor = "#0a0a0a"
+# images = [""]
+themeColor = "#0a0a0a"
 
-  homeSubtitle = "Critically acclaimed documentary film production."
-  footerCopyright = ' &#183; Copyright 2019 Blackspot'
-  # bgImg = ""  # Homepage background-image URL
+footerCopyright = ' &#183; Copyright 2019 Blackspot'
+# bgImg = ""  # Homepage background-image URL
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/joseph-innes/blackspot/commit/"
+# Prefix of link to the git commit detail page. GitInfo must be enabled.
+gitUrl = "https://github.com/joseph-innes/blackspot/commit/"
 
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
+# Toggling this option needs to rebuild SCSS, requires Hugo extended version
+justifyContent = false  # Set "text-align: justify" to `.content`.
 
-  relatedPosts = false  # Add a related content section to all single posts page
+relatedPosts = false  # Add a related content section to all single posts page
 
-  code_copy_button = true # Turn on/off the code-copy-button for code-fields
-  
-  # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/blackspotfilm"
+# Add custom css
+# customCSS = ["css/foo.css", "css/bar.css"]
 
-  [[params.social]]
-    name = "facebook"
-    url = "https://www.facebook.com/blackspot.filmproduktionen"
+# Social Icons
+# Check https://github.com/Track3/hermit#social-icons for more info.
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/blackspotfilm"
 
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/pub/daniel-bodenmann/92/11/465"
+[[params.social]]
+  name = "facebook"
+  url = "https://www.facebook.com/blackspot.filmproduktionen"
 
-[menu]
-  [[menu.main]]
-    name = "About"
-    url = "about/"
-    translationKey = "about"
-    weight = 1
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 0
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/pub/daniel-bodenmann/92/11/465"
 
 [languages]
   [languages.de]
+    languageName = "German"
+    contentDir = "content/de"
     weight = 0
-    languageName = "DE"
     description = "Kritisch aufgenommene Dokumentarfilmproduktion"
     homeSubtitle = "Kritisch aufgenommene Dokumentarfilmproduktion"
     [[languages.de.menu.main]]
-      url    = "about/"
-      name   = "Über"
+      url = "about/"
+      name = "Über"
       weight = 1
     [[languages.de.menu.main]]
-      url    = "posts/"
-      name   = "Posten"
+      url = "posts/"
+      name = "Posten"
       weight = 0
   [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
     weight = 1
-    languageName = "EN"
+    description = "Critically acclaimed documentary film production."
+    homeSubtitle = "Critically acclaimed documentary film production."
+    [[languages.en.menu.main]]
+      url = "about/"
+      name = "About"
+      weight = 1
+    [[languages.en.menu.main]]
+      url = "posts/"
+      name = "Posts"
+      weight = 0
