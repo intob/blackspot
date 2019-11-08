@@ -1,0 +1,3 @@
+{{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "css/style.css" . | toCSS | minify | fingerprint -}}
+<link rel="preload" href="{{ $style.Permalink }}" {{ printf "integrity=%q" $style.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous" as="style">
+<meta name="description" content="{{ .Description | default .Site.Params.Description }}">
