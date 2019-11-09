@@ -91,12 +91,11 @@ a {
   text-decoration: none;
   border: none;
   transition-property: color;
-  transition-duration: .4s;
+  transition-duration: .2s;
   transition-timing-function: ease-out;
 
   &:hover {
-    color: #fff;
-    text-shadow: 0 0 1px #fff;
+    color: $c-secondary;
   }
 }
 
@@ -252,6 +251,11 @@ table {
     font-size: 1.2em;
     height: 100%;
 
+    a:hover {
+      color: $c-text;
+      text-shadow: none;
+    }
+
     .logo {
       width: 1.6em;
       height: 1.6em;
@@ -278,6 +282,11 @@ table {
     display: inline-block;
     font-size: 1.1em;
     opacity: .8;
+
+    &.hide-in-mobile a:hover {
+      color: $c-primary;
+      text-shadow: none;
+    }
 
     .has-children {
       padding-right: .5em;
