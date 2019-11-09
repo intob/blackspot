@@ -8,11 +8,15 @@ Founded in 2000, Blackspot is a production company with a reputation for making 
 
 {{< timeline >}}
     This is the first title  title
-    Little subtitle  subtitle
-    This is the first piece of the timeline.  return
+    This is the first piece of the timeline.  end
     Second title  title
-    Second little subtitle  subtitle
-    This is the second paragraph.
+    This is the second paragraph.  end
+    Third piece of the puzzle  title
+    Quite a cool story.  return
+    Cool story bro  title
+    Yeah, this part is really interesting.  end
+    Once upon a time  title
+    There was a man in a can.
 {{< /timeline >}}
 
 
