@@ -6,55 +6,98 @@ date = "2019-11-08"
 Founded in 2000, Blackspot is a production company with a reputation for making unadulterated **documentary films of real-world events** & stories.
 
 {{< timeline >}}
-    2019  return
-    Auf und Davon  return
-    Director of 6 45 minute episode SRF VJ documentary-series  return
-    https://www.srf.ch/sendungen/auf-und-davon/staffel-2019/  end
+    meta: 2019  r
+    head: Auf und Davon  r
+    meta: SRF  r
+    desc: Director of 6 45 minute episode documentary-series  r
+    link: https://www.srf.ch/sendungen/auf-und-davon/staffel-2019/  end
 
-    2018  return
-    Cargovelo  return
-    Producer of 3 3 minute episodes  return
-    https://vimeo.com/305697545  end
+    meta: 2018  r
+    head: Cargovelo  r
+    desc: Producer of 3 3 minute episodes  r
+    link: https://vimeo.com/305697545  end
 
-    2018  return
-    No Foodwaste  return
-    Director of short film for myblueplanet  return
-    https://vimeo.com/289888717  end
+    meta: 2018  r
+    head: No Foodwaste  r
+    meta: myblueplanet  r
+    desc: Director of short film  r
+    link: https://vimeo.com/289888717  end
 
-    2018  return
-    Gladiator of the Alps  return
-    Director of 26 minute documentary for Red Bull Media House  return
-    https://www.redbull.com/int-en/tv/film/AP-1UN3KUZBS1W11/gladiators-of-the-alps  end
+    meta: 2018  r
+    head: Gladiator of the Alps  r
+    meta: Red Bull Media House  r
+    desc: Director of 26 minute documentary  r
+    link: https://www.redbull.com/ch-de/films/gladiators-of-the-alps-1  end
 
-    2018  return
-    Ohni Pfuus kei Müüs  return
-    Director of 90 minute SRF VJ Docu-Plus  return
+    meta: 2018  r
+    head: Ohni Pfuus kei Müüs  r
+    meta: SRF  r
+    Director of 90 minute Docu-Plus  r
     https://www.srf.ch/play/tv/doku-plus/video/ohni-pfuus-kei-mueues?id=cdc44462-25ff-4f60-908b-a60c4edb5ba9&station=69e8ac16-4327-4af4-b873-fd5cd6e895a7  end
 
-    2017  return
-    Carole im Glück  return
-    Director of 23 minute SRF VJ Report  return
-    https://www.srf.ch/sendungen/reporter/carole-im-glueck  end
+    meta: 2017  r
+    head: Carole im Glück  r
+    meta: SRF  r
+    desc: Director of 23 minute report  r
+    link: https://www.srf.ch/sendungen/reporter/carole-im-glueck  end
 
-    2017  return
-    Auf und Davon  return
-    Director of 6 45 minute episode SRF VJ documentary-series  return
-    https://www.srf.ch/sendungen/auf-und-davon/staffel-2019/  end
+    meta: 2017  r
+    head: Auf und Davon  r
+    meta: SRF  r
+    desc: Director of 6 45 minute episode documentary-series  r
+    link: https://www.srf.ch/sendungen/auf-und-davon/staffel-2019/  end
 
-    2017  return
-    Two Fast  return
-    Director of 40 minute documentary for Red Bull Media House  return
-    https://www.redbull.com/int-en/tv/film/AP-1PYF79CXW1W11/two-fast  end
+    meta: 2017  r
+    head: Two Fast  r
+    meta: Red Bull Media House  r
+    desc: Director of 40 minute documentary  r
+    link: https://www.redbull.com/ie-en/films/two-fast-1  end
 
-    2017  return
-    He!matland - Wir Pendler  return
-    Director of 4 40 minute SRF VJ documentary-series  return
+    meta: 2017  r
+    head: He!matland - Wir Pendler  r
+    meta: SRF  r
+    desc: Director of 4 40 minute episode documentary-series  r
     https://www.srf.ch/shop/srf-he-matland-wir-pendler  end
 
-    2016  return
-    Auf und Davon  return
-    Director of 6 45 minute episode SRF VJ documentary-series  return
-    https://www.srf.ch/sendungen/auf-und-davon/staffel-2019/    
+    meta: 2016  r
+    head: Auf und Davon  r
+    meta: SRF  r
+    desc: Director of 6 45 minute episode documentary-series  r
+    link: https://www.srf.ch/sendungen/auf-und-davon/staffel-2019/  end
+
+    meta: 2016  r
+    head: Mein Weg nach Hawaii  r
+    meta: SRF  r
+    desc: Featuring Daniela Ryf. Director and producer of 2 25 minute part documentary series  r
+    link: https://www.srf.ch/play/tv/sendung/mein-weg-nach-hawaii?id=72f9d974-e2fc-4c9d-bf37-9a2913b7ac28  end
+
+    meta: 2016  r
+    head: Peng! Snowman  r
+    meta: Festivals, cinema, TV, DVD  r
+    desc: Director and producer of cross media documentary  r
+    link: http://www.everythingcan.com/  end
+
+    meta: 2015  r
+    head: Wir sind die Schweiz  r
+    meta: SRF  r
+    desc: 4 40 minute episode VJ documentary series  r
+    link: https://www.srf.ch/play/tv/sendung/dok-wir-sind-die-schweiz?id=c7004774-dd30-0001-cfbf-1f84cb1075a0  end
+
+    meta: 2015  r
+    head: Das Experiment  r
+    meta: SRF  r
+    desc: Editing director of a 6 25 minute episode adventure series  r
+    link: https://www.srf.ch/sendungen/das-experiment/sendungsportraet  end
+    
+    meta: 2014  r
+    head: Verkehrte Welt  r
+    meta: SRF  r
+    desc: Director of 6 40 minute episode documentary series  r
+    link: https://www.srf.ch/play/tv/sendung/verkehrte-welt?id=c602729a-0c40-0001-a3e7-c6707f5d7c20  end
+
+    meta: 
+
+
 {{< /timeline >}}
 
 

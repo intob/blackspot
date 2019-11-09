@@ -6,15 +6,18 @@
     <div class="event-container right">
     {{ end }}
         <div class="event-content">
-            {{ range $elementIndex, $element := split $event "  return" }}
-                {{ if eq $elementIndex 0 }}
-                    <span class="event-meta">{{ $element }}</span>
-                {{ else if eq $elementIndex 1 }}
-                    <h2>{{ $element }}</h2>
-                {{ else if eq $elementIndex 2 }}
-                    <p>{{ $element }}</p>
-                {{ else if eq $elementIndex 3 }}
-                    <a {{ (printf "href=%s" $element) | safeHTMLAttr }} rel="noopener" target="_blank">{{ i18n "seeMore" }}</a>
+            {{ range $element := split $event "  r" }}
+                {{ if in $element "meta:" }}
+                    <span class="event-meta">{{ replace $element "meta:" "" }}</span>
+                {{ else if in $element "head:" }}
+                    <h2>{{ replace $element "head:" "" }}</h2>
+                {{ else if in $element "desc:" }}
+                    <p>{{ replace $element "desc:" "" }}</p>
+                {{ else if in $element "link:" }}
+                    {{ $link := replace $element "link:" "" }}
+                    <a {{ printf "href=%s" $link | safeHTMLAttr }} rel="noopener" target="_blank">{{ i18n "seeMore" }}</a>
+                {{ else }}
+                    <span class="event-meta">/Something wrong/ {{ $element }}</span>
                 {{ end }}
             {{ end }}
         </div>
