@@ -3,11 +3,23 @@ title = "About Blackspot"
 date = "2019-11-08"
 +++
 
-Founded in 2000, Blackspot is a production company with a reputation for making unadulterated documentary films of real-world events & stories.
+Founded in 2000, Blackspot is a production company with a reputation for making unadulterated **documentary films of real-world events** & stories.
+
+
+{{< timeline >}}
+    This is the first title  title
+    Little subtitle  subtitle
+    This is the first piece of the timeline.  return
+    Second title  title
+    Second little subtitle  subtitle
+    This is the second paragraph.
+{{< /timeline >}}
 
 
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+
+
+
 
 It makes use of a variety of open source projects including:
 

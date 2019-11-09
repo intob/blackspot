@@ -1,0 +1,13 @@
+<h1>Timeline</h1>
+
+<div class="timeline">
+{{ range split .Inner "  return" }}
+    {{range $index, $element := split . "  title" }}
+        {{ if eq $index 0 }}
+            <div class="title">{{ $element }}</div>
+        {{ else }}
+            <div class="description">{{ $element }}</div>
+        {{ end }}
+    {{ end }}
+{{ end }}
+</div>

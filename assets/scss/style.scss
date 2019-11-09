@@ -93,10 +93,6 @@ a {
   transition-property: color;
   transition-duration: .2s;
   transition-timing-function: ease-out;
-
-  &:hover {
-    color: $c-secondary;
-  }
 }
 
 hr {
@@ -260,21 +256,25 @@ table {
       width: 1.6em;
       height: 1.6em;
       margin-right: .3em;
+      transition: transform .4s ease-in-out;
     
       svg {
         width: 100%;
         height: 100%;
-        transition: all .3s;
     
         .graphic {
           fill: $c-text;
-          transition: fill .2s;
+          transition: fill .4s;
         }
       }
     }
 
-    &:hover .logo svg .graphic {
+    &:hover .logo {
+      transform: rotate(1080deg);
+
+      svg .graphic {
       fill: $c-primary;
+      }
     }
   }
 
@@ -282,11 +282,6 @@ table {
     display: inline-block;
     font-size: 1.1em;
     opacity: .8;
-
-    &.hide-in-mobile a:hover {
-      color: $c-primary;
-      text-shadow: none;
-    }
 
     .has-children {
       padding-right: .5em;
@@ -446,10 +441,6 @@ p.img-404 {
       fill: $c-text;
     }
   }
-  a:hover {
-    color: $c-primary;
-    text-shadow: none;
-  }
 }
 
 #home-title {
@@ -560,7 +551,7 @@ p.img-404 {
 .bg-img {
   width: 100vw;
   height: 100vh;
-  opacity: .03;
+  opacity: .15;
   z-index: -1;
   position: fixed;
   top: 0;
