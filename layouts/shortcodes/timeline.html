@@ -1,5 +1,3 @@
-<h1>Timeline</h1>
-
 <div class="timeline">
 {{ range $eventIndex, $event := split .Inner "  end" }}
     {{ if not (modBool $eventIndex 2) }}
@@ -8,11 +6,14 @@
     <div class="event-container right">
     {{ end }}
         <div class="event-content">
-            {{range $elementIndex, $element := split $event "  title" }}
+            {{ range $elementIndex, $element := split $event "  return" }}
                 {{ if eq $elementIndex 0 }}
                     <h2>{{ $element }}</h2>
-                {{ else }}
+                {{ else if eq $elementIndex 1 }}
                     <p>{{ $element }}</p>
+                {{ else if eq $elementIndex 2 }}
+                    <p>{{ $element }}</p>
+                    <a href="{{ string $element }}" target="_blank" rel="noopener">{{ i18n "seeMore" }}</a>
                 {{ end }}
             {{ end }}
         </div>
