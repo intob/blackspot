@@ -12,8 +12,7 @@
                 {{ else if eq $elementIndex 1 }}
                     <p>{{ $element }}</p>
                 {{ else if eq $elementIndex 2 }}
-                    <p>{{ $element }}</p>
-                    <a href="{{ string $element }}" target="_blank" rel="noopener">{{ i18n "seeMore" }}</a>
+                    <a {{ (printf "href=%s" $element) | safeHTMLAttr }} rel="noopener" target="_blank">{{ i18n "seeMore" }}</a>
                 {{ end }}
             {{ end }}
         </div>

@@ -13,6 +13,7 @@ copyright = "This work is licensed under an MIT License." # This message is only
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 # googleAnalytics = "UA-123-45"
 # disqusShortname = "yourdiscussshortname"
+enableInlineShortcodes = true
 
 [author]
 name = "Daniel Bodenmann"
