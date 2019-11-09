@@ -8,10 +8,12 @@
         <div class="event-content">
             {{ range $elementIndex, $element := split $event "  return" }}
                 {{ if eq $elementIndex 0 }}
-                    <h2>{{ $element }}</h2>
+                    <span class="event-meta">{{ $element }}</span>
                 {{ else if eq $elementIndex 1 }}
-                    <p>{{ $element }}</p>
+                    <h2>{{ $element }}</h2>
                 {{ else if eq $elementIndex 2 }}
+                    <p>{{ $element }}</p>
+                {{ else if eq $elementIndex 3 }}
                     <a {{ (printf "href=%s" $element) | safeHTMLAttr }} rel="noopener" target="_blank">{{ i18n "seeMore" }}</a>
                 {{ end }}
             {{ end }}

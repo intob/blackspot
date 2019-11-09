@@ -89,6 +89,15 @@
 			background-color: $c-neutral-light;
 			position: relative;
 			border-radius: 6px;
+
+			.event-meta {
+				font-size: .9em;
+				opacity: .6;
+			}
+
+			h2 {
+				margin-block-start: 0;
+			}
 		}
 	}
 }
