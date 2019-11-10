@@ -110,27 +110,76 @@ Founded in 2000, Blackspot is a production company with a reputation for making 
     meta: 2013  r
     head: Die Ferienprofis  r
     meta: SRF  r
-    desc: Producer & director of 6 42 minute episode documentary  r
+    desc: Producer & director of 6 42 minute episode travelling documentary  r
     link: https://www.srf.ch/sendungen/die-ferienprofis  end
 
-    meta: 2013
+    meta: 2012  r
+    head: Undersea Voyager  r
+    desc: Documentary-portrait of Scott Cassell  end
 
+    meta: 2012  r
+    head: Unser Dorf  r
+    meta: SRF  r
+    desc: Director of folk cuture & entertainment documentary series  r
+    link: https://www.srf.ch/play/tv/srf-bi-de-luet---unser-dorf/video/sf-bi-de-luet---unser-dorf-tenna-15?id=0a7d3548-8a7d-4c03-97f8-3aab947fe4f8  end
+
+    meta: 2011  r
+    head: Bärn - seit 1191  r
+    meta: Independent  r
+    desc: Producer & director of 70 minute documentary. Aired on Swiss national TV, DVD & cinemas  end
+
+    meta: 2011  r
+    head: Sporterlebt  r
+    meta: SRF  r
+    desc: Producer & director of 6 26 minute episode action-sport documentary series  r
+    link: https://www.srf.ch/play/tv/sporterlebt/video/sporterlebt-vom-08-08-2011?id=d4b271e4-6c32-43a4-a4b4-90042f122d90  end
+
+    meta: 2011  r
+    head: Die Ferienprofis  r
+    meta: SRF  r
+    desc: Producer & director of 6 42 minute episode travelling documentary  r
+    link: https://www.srf.ch/sendungen/die-ferienprofis  end
+
+    meta: 2010  r
+    head: The True Spirit  r
+    meta: Fundraising pilot  r
+    desc: Director of 12 minute documentary  end
+
+    meta: 2010  r
+    head: Ab auf die Alp  r
+    meta: SRF  r
+    desc: Director & co-producer of 5 40 minute episode folk culture documentary series  end
+
+    meta: 2009  r
+    head: Auf und Davon  r
+    meta: SRF  r
+    desc: Director of 5 40 minute episode documentary-series  end
+
+    meta: 2009  r
+    head: Von Menschen und Tieren  r
+    meta: SRF  r
+    desc: Director of 5 40 minute episode folk culture documentary  r
+    link: https://www.srf.ch/play/tv/von-menschen-und-tieren/video/von-menschen-und-tieren-15?id=779d3825-9b04-40ce-b974-b5f45e879c0e  end
+
+    meta: 2008  r
+    head: Notfall in Davos  r
+    meta: SRF  r
+    desc: Director of 5 40 minute episode documentary  r
+    link: https://www.srf.ch/shop/notfall-in-davos-5-folgen  end
+
+    meta: 2007  r
+    head: Normalität Notfall  r
+    meta: SRF  r
+    desc: DOP & director of 26 minute documentary  r
+    link: https://www.srf.ch/play/tv/reporter/video/normalitaet-notfall--eine-nacht-mit-der-rettungssanitaeterin-sandra-blaser?id=34ae9999-06bd-4b92-8e1f-6a13a420b4c0  end
+
+    meta: 2006  r
+    head: Sports Highlights  r
+    meta: EU Championships Football & Winter Olympics  r
+    desc: Producer & director, running time 88 minutes  end
+
+    meta: 2005  r
+    head: Qigong - Quelle der Kraft  r
+    desc: DVD Production
 
 {{< /timeline >}}
-
-
-
-
-
-
-
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
