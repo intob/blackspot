@@ -32,8 +32,8 @@ Founded in 2000, Blackspot is a production company with a reputation for making 
     meta: 2018  r
     head: Ohni Pfuus kei Müüs  r
     meta: SRF  r
-    Director of 90 minute Docu-Plus  r
-    https://www.srf.ch/play/tv/doku-plus/video/ohni-pfuus-kei-mueues?id=cdc44462-25ff-4f60-908b-a60c4edb5ba9&station=69e8ac16-4327-4af4-b873-fd5cd6e895a7  end
+    desc: Director of 90 minute Docu-Plus  r
+    link: https://www.srf.ch/play/tv/doku-plus/video/ohni-pfuus-kei-mueues?id=cdc44462-25ff-4f60-908b-a60c4edb5ba9&station=69e8ac16-4327-4af4-b873-fd5cd6e895a7  end
 
     meta: 2017  r
     head: Carole im Glück  r
@@ -57,7 +57,7 @@ Founded in 2000, Blackspot is a production company with a reputation for making 
     head: He!matland - Wir Pendler  r
     meta: SRF  r
     desc: Director of 4 40 minute episode documentary-series  r
-    https://www.srf.ch/shop/srf-he-matland-wir-pendler  end
+    link: https://www.srf.ch/shop/srf-he-matland-wir-pendler  end
 
     meta: 2016  r
     head: Auf und Davon  r
@@ -93,9 +93,27 @@ Founded in 2000, Blackspot is a production company with a reputation for making 
     head: Verkehrte Welt  r
     meta: SRF  r
     desc: Director of 6 40 minute episode documentary series  r
-    link: https://www.srf.ch/play/tv/sendung/verkehrte-welt?id=c602729a-0c40-0001-a3e7-c6707f5d7c20  end
+    link: https://www.srf.ch/sendungen/verkehrte-welt  end
 
-    meta: 
+    meta: 2014  r
+    head: Mini Lehr und ich  r
+    meta: SRF  r
+    desc: Director of 4 40 minute episode documentary series  r
+    link: https://www.srf.ch/sendungen/mini-lehr-und-ich  end
+
+    meta: 2013  r
+    head: Streetgames  r
+    meta: SRF  r
+    desc: Director of 26 minute pilot youth program  r
+    link: https://www.srf.ch/sendungen/streetgames  end
+
+    meta: 2013  r
+    head: Die Ferienprofis  r
+    meta: SRF  r
+    desc: Producer & director of 6 42 minute episode documentary  r
+    link: https://www.srf.ch/sendungen/die-ferienprofis  end
+
+    meta: 2013
 
 
 {{< /timeline >}}
