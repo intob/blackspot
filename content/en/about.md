@@ -3,7 +3,7 @@ title = "About Blackspot"
 date = "2019-11-08"
 +++
 
-Blackspot wurde im Jahr 2000 gegründet und ist eine Produktionsfirma mit dem Ruf, unverfälschte **Dokumentarfilme von realen Ereignissen** und Geschichten zu produzieren.
+Founded in 2000, Blackspot is a production company with a reputation for making unadulterated **documentary films of real-world events** & stories.
 
 {{< timeline >}}
     meta: 2019  r

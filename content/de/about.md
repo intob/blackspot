@@ -3,7 +3,7 @@ title = "Über Blackspot"
 date = "2019-11-08"
 +++
 
-**Hugo ist gut, JAAA!**
+Blackspot wurde im Jahr 2000 gegründet und ist eine Produktionsfirma mit dem Ruf, unverfälschte **Dokumentarfilme von realen Ereignissen** und Geschichten zu produzieren.
 
 {{< timeline >}}
     meta: 2019  r
@@ -181,5 +181,4 @@ date = "2019-11-08"
     meta: 2005  r
     head: Qigong - Quelle der Kraft  r
     desc: DVD Production
-
 {{< /timeline >}}
