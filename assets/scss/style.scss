@@ -429,12 +429,18 @@ p.img-404 {
   justify-content: center;
   align-items: center;
 
+
+  >* {
+    background: transparentize($c-neutral, .5);
+  }
+
   .logo {
     position: fixed;
     width: 100vh;
     height: 100vh;
     display: flex;
     align-items: center;
+    z-index: -1;
 
     svg {
       width: 100vh;
